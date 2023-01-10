@@ -31,5 +31,3 @@ Attendance Management System based on Face Recognition using Python and OpenCv
 ### Notes
 - It will require high processing power(I have 8 GB RAM)
 - Noisy image can reduce the accuracy, so quality of images should be good.
-
-
