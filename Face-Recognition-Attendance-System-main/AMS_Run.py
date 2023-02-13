@@ -9,16 +9,18 @@ import pandas as pd
 import datetime
 import time
 
+
+
 # Window is our Main frame of system
 window = tk.Tk()
 window.title("FAMS-Face Recognition Based Attendance Management System")
-
 window.geometry('1280x720')
 window.configure(background='grey80')
 
+
+
+
 # GUI for manually fill attendance
-
-
 def manually_fill():
     global sb
     sb = tk.Tk()
@@ -290,9 +292,10 @@ def err_screen1():
     Button(sc2, text='OK', command=del_sc2, fg="black", bg="lawn green", width=9,
            height=1, activebackground="Red", font=('times', 15, ' bold ')).place(x=90, y=50)
 
+    
+    
+    
 # For take images for datasets
-
-
 def take_img():
     l1 = txt.get()
     l2 = txt2.get()
@@ -350,6 +353,9 @@ def take_img():
             Notification.place(x=450, y=400)
 
 
+            
+            
+            
 # for choose subject and fill attendance
 def subjectchoose():
     def Fillattendances():
