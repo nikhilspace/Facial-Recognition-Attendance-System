@@ -20,6 +20,8 @@ window.configure(background='grey80')
 
 
 
+
+
 # GUI for manually fill attendance
 def manually_fill():
     global sb
