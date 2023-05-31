@@ -293,9 +293,6 @@ def err_screen1():
           bg='white', font=('times', 16)).pack()
     Button(sc2, text='OK', command=del_sc2, fg="black", bg="lawn green", width=9,
            height=1, activebackground="Red", font=('times', 15, ' bold ')).place(x=90, y=50)
-
-    
-    
     
 # For take images for datasets
 def take_img():
